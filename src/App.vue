@@ -1,10 +1,10 @@
 <script setup>
-// import Active from "./components/Active.vue";
+import Active from "./components/Active.vue";
 import Complete from './components/Complete.vue'
 </script>
 
 <template>
-  <!-- <Active /> -->
+  <Active />
   <Complete />
 </template>
 
