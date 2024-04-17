@@ -1,5 +1,3 @@
-<script setup></script>
-
 <template>
   <div class="grid grid-cols-1 md:grid-cols-2">
     <div class="w-full md:w-1/2 lg:w-1/2 bg-bgactive bg-cover">Image</div>
@@ -18,7 +16,9 @@
     </div>
   </div>
 </template>
-
-<style scoped>
-
-</style>
+<script>
+export default {
+  name: "complete",
+};
+</script>
+<style scoped></style>

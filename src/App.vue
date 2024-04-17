@@ -1,11 +1,17 @@
-<script setup>
-import Active from "./components/Active.vue";
-import Complete from './components/Complete.vue'
-</script>
-
 <template>
-  <Active />
-  <Complete />
+  <!-- link routes with pages -->
+  <router-link to="/">Home</router-link>
+  <router-link to="/thank-you">Complete</router-link>
+  <router-view></router-view>
 </template>
 
+<script>
+import { RouterLink } from 'vue-router';
+
+
+export default {
+  name: "App",
+  components: {},
+};
+</script>
 <style scoped></style>
